@@ -46,6 +46,9 @@ func main() {
 	bob := person{"Bob", 18}
 	fmt.Println(bob)
 
+    bob.appendMackey()
+    fmt.Println(bob)
+
 	chedd :=cat{"Chedd", 3, "Orange"}
 
 	slice := make([]being, 2)
