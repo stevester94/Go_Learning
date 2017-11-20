@@ -1,0 +1,5 @@
+- Begin Wekan prototype
+    - Getting secret credentials
+        - Potential bug, login is only accepted when going through IP and not external URL
+            - This is actually fine, the tokens last for a long time anyways, and we will be on local anyways
+    - Fetching cards
